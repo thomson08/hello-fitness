@@ -3,5 +3,5 @@ numpy
 pandas
 pydeck
 streamlit
-streamlit
-mysql-connector-python
+mysqlclient==2.2.4
+SQLAlchemy==2.0.29
