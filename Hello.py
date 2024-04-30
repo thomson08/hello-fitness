@@ -3,7 +3,7 @@
 import streamlit as st
 
 # Initialize connection.
-conn = st.connection(key='connections.mysql', type='sql')
+conn = st.connection('connections.mysql', type='sql')
 
 # Perform query.
 df = conn.query('SELECT first_name from user;', ttl=600)
